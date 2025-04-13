@@ -51,7 +51,7 @@ TARGET_KERNEL_CONFIG := vendor/holi-qgki_defconfig vendor/debugfs.config vendor/
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_KERNEL_CLANG_VERSION := r450784e
+TARGET_KERNEL_CLANG_VERSION := r530567
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
