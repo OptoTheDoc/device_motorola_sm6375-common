@@ -448,7 +448,6 @@ vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
 # IRQ balance
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # Kernel
 vendor/bin/init.kernel.post_boot-blair.sh
