@@ -379,9 +379,9 @@ on property:vendor.hw.touch.status="ready"
 on property:ro.boot.revision=*
     setprop ro.boot.hardware.revision ${ro.boot.revision}
 
-   on property:vendor.post_boot.parsed=1Add commentMore actions
+   on property:vendor.post_boot.parsed=1
     # IRQ Tuning
-    # IRQ 243: msm_drm  -> CPU 7
-    # IRQ 240: kgsl_3d0_irq -> CPU 6
-    write /proc/irq/243/smp_affinity_list 7
-    write /proc/irq/240/smp_affinity_list 6
+    # IRQ 218: msm_drm  -> CPU 7
+    # IRQ 209: kgsl_3d0_irq -> CPU 6
+    write /proc/irq/218/smp_affinity_list 7
+    write /proc/irq/209/smp_affinity_list 6
